@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "engines": { "vscode": "^1.60.0" },
   "keywords": ["image", "paste", "hash", "markdown", "screenshot"],
-  "icon": "https://raw.githubusercontent.com/GisliWong/misc/main/paste_image_with_hash/paste-image-with-hash.png",
+  "icon": "paste-image-with-hash.png",
   "repository": {
   "type": "git",
   "url": "https://github.com/GisliWong/vscode-extensions/tree/main/paste_image_with_hash"
