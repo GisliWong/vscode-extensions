@@ -49,4 +49,3 @@ Paste clipboard images into your project with MD/SHA hash as filename. You can a
 ## License
 MIT
 
-![f8bb1b2f488f24bd9ce3f3a7f283b401](https://github.com/GisliWong/vscode-extensions/tree/main/paste_image_with_hash/./media/f8bb1b2f488f24bd9ce3f3a7f283b401.png)
