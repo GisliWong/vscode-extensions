@@ -66,7 +66,6 @@ async function pasteImageHash() {
   });
 
   let rel = path.relative(currentFileDir, destPath).replace(/\\/g, '/');
-  if (!rel.startsWith('.')) rel = './' + rel;
 
   const insertPattern = config.get('insertPattern') || '![${imageFileNameWithoutExt}](${imageFilePath})';
   const imageFileNameWithoutExt = path.basename(fileName, path.extname(fileName));
