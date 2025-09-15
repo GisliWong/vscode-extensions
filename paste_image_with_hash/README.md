@@ -25,7 +25,7 @@ Paste clipboard images into your project with MD/SHA hash as filename. You can a
 | Setting                        | Type   | Default                                           | Description                                                             |
 | ------------------------------ | ------ | ------------------------------------------------- | ----------------------------------------------------------------------- |
 | `pasteImageHash.path`          | string | `${currentFileDir}/media`                         | Save path for images. Supports `${currentFileDir}` and `${projectRoot}` |
-| `pasteImageHash.insertPattern` | string | `![${imageFileNameWithoutExt}](${imageFilePath})` | Template for inserting image into the editor                            |
+| `pasteImageHash.insertPattern` | string | `![${imageFileNameWithoutExt}]\(${imageFilePath}\)` | Template for inserting image into the editor                            |
 | `pasteImageHash.algorithm`     | string | `md5`                                             | Hash algorithm to use: `md5`, `sha1`, `sha256`                          |
 
 ## Keybindings
@@ -46,3 +46,5 @@ Paste clipboard images into your project with MD/SHA hash as filename. You can a
 3. Image will be saved to the configured folder with hash filename.
 4. Markdown link will be inserted into the editor according to your pattern.
     
+## License
+MIT

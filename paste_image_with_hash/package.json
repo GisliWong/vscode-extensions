@@ -7,6 +7,11 @@
   "engines": { "vscode": "^1.60.0" },
   "keywords": ["image", "paste", "hash", "markdown", "screenshot"],
   "icon": "https://raw.githubusercontent.com/GisliWong/misc/main/paste_image_with_hash/paste-image-with-hash.png",
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/GisliWong/vscode-extensions/tree/main/paste_image_with_hash"
+  },
+  "license": "MIT",
   "categories": ["Other"],
   "activationEvents": ["onCommand:pasteImageHash.paste"],
   "main": "./extension.js",
